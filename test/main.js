@@ -5,4 +5,10 @@ document.addEventListener('DOMContentLoaded', () => {
     bars.addEventListener('click', () => {
         menuList.classList.toggle('active');
     });
+
+    document.addEventListener('click', (event) => {
+        if (!menuList.contains(event.target) && !bars.contains(event.target)) {
+            menuList.classList.remove('active');
+        }
+    });
 });
