@@ -24,7 +24,10 @@ body {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
 }
-
+.mobile--menu--container
+    {
+        display: none;
+    }
 .bars {
     display: none;
     cursor: pointer;
@@ -144,6 +147,7 @@ body {
 .stats-item {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .stats div h2 {
