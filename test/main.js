@@ -1,9 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const bars = document.querySelector('.bars');
-    const menuList = document.querySelector('.menu--list');
+    const menuList = document.querySelector('.mobile--menu--container');
 
     bars.addEventListener('click', () => {
-        console.log('Bars clicked');
         menuList.classList.toggle('active');
     });
 });
