@@ -15,15 +15,39 @@
     
     .mobile--menu--container {
         display: none;
-        background-color: #fff;
-        position: absolute;
-        top: 60px;
-        right: 20px;
-        padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 80vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 1000;
+        align-items: center;
+        justify-content: center;
     }
+    
+    .mobile--menu--container ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .mobile--menu--container ul li {
+        margin: 20px 0;
+    }
+    
+    .mobile--menu--container ul li a {
+        color: white;
+        font-size: 24px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+    
+    .mobile--menu--container ul li a:hover {
+        color: #f39c12;
+    }
+    
     .mobile--menu--container.active {
         display: flex; 
     }
@@ -109,12 +133,13 @@
         display: flex;
         gap: 10px;
         margin-bottom: 20px;
+        max-width:425px;
+        width: 100%;
+        margin: 0 auto;
     }
     
     .email {
         padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 4px;
         flex: 1;
     }
     .stats div h2 {
@@ -133,5 +158,12 @@
         color: #7a7a7a;
         width: 77px;
         height: 40px;
+
+    }
+    .product--list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px 10px;
     }
 }
