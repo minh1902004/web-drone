@@ -1,0 +1,245 @@
+body,
+h1,
+h2,
+h3,
+p,
+a,
+div,
+img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.bars {
+    display: none;
+    cursor: pointer;
+}
+
+.header--left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.menu--list a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.menu--list a:hover {
+    color: #007bff;
+}
+
+.header--right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sign-in {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.start-trial {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.start-trial:hover {
+    background-color: #0056b3;
+}
+
+.main--content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+.main--left h1 {
+    font-family: Plus Jakarta Sans;
+    font-size: 58px;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 460px;
+    height: 198px;
+}
+
+.main--left p {
+    font-family: inInter;
+    font-size: 18px;
+    font-weight: 400;
+    color: #7a7a7a;
+    width: 452px;
+    height: 52px;
+}
+
+.email-outsider {
+    display: flex;
+    align-items: center;
+    width:  476px;
+    height: 72px;
+    border: #5c5959 1px solid;
+    border-radius: 8px;
+}
+
+.email input{
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    font-size: 14px;
+    width: 250px;
+    font-family: Plus Jakarta Sans;
+
+}
+
+.email-outsider button {
+    background-color: black;
+    color: white;
+    width: 179px;
+    height: 56px;
+    border-radius: 8px;
+}
+
+.email-outsider button:hover {
+    background-color: #5f6164;
+}
+
+.stats {
+    display: flex;
+    padding-top:10px;
+    gap: 20px;
+}
+.stats-item {
+    display: flex;
+    align-items: center;
+}
+
+.stats div h2 {
+    font-family: Plus Jakarta Sans;
+    font-size: 42px;
+    font-weight: 500;
+    color: black;
+    width: 102px;
+    height: 62px;
+}
+
+.stats div p {
+    font-family: Plus Jakarta Sans;
+    font-size: 13px;
+    font-weight: 400;
+    color: #7a7a7a;
+    width: 77px;
+    height: 40px;
+}
+
+.product--list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 60px;
+}
+
+.product-item {
+    flex: 1 1 calc(25% - 20px);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-item p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.product-item h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+.footer--left h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer--left p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer--right .up h3 {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.footer--right .up h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.footer--right .down {
+    display: flex;
+    gap: 15px;
+}
+
+.footer--right .down i {
+    font-size: 20px;
+    color: #555;
+    cursor: pointer;
+}
